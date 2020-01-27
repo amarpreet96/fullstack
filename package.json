@@ -1,0 +1,23 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node Server.js\" \"cd front && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarpreet96/fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarpreet96/fullstack/issues"
+  },
+  "homepage": "https://github.com/amarpreet96/fullstack#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
